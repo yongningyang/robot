@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="standby">
+    </array>
+
+    <array name="wake_up_jump">
+    </array>
+
+    <array name="wake_up_hi">
+    </array>
+
+    <array name="search_none">
+    </array>
+
+    <array name="think">
+    </array>
+
+    <array name="akimbo">
+    </array>
+
+    <array name="preview">
+    </array>
+
+    <array name="circle_light">
+    </array>
+
+    <!-- 进度百分比文字大小 -->
+    <attr name="percent_text_size" format="dimension" />
+    <!-- 圆形进度条边框大小 -->
+    <attr name="stroke_width" format="dimension" />
+    <!-- 矩形进度条 四周圆角大小 -->
+    <attr name="rect_round" format="dimension" />
+    <!-- 矩形进度条 是空心样式还是实心样式 -->
+    <attr name="isHorizonStroke" format="boolean" />
+    <!-- 进度百分比文字颜色 -->
+    <attr name="percent_text_color" format="color|integer" />
+    <!-- 进度条背景颜色 -->
+    <attr name="progressBarBgColor" format="color|integer" />
+    <!-- 扇形进度条颜色 -->
+    <attr name="sectorColor" format="color|integer" />
+    <!-- 扇形背景颜色 -->
+    <attr name="unSweepColor" format="color|integer" />
+    <!-- 进度颜色 -->
+    <attr name="progressColor" format="color|integer" />
+    <!-- 进度文字是否显示百分号 -->
+    <attr name="showPercentSign" format="boolean"/>
+    <!-- 进度条样式圆形还是矩形 -->
+    <attr name="orientation">
+        <enum name="horizontal" value="0"/>
+        <enum name="circle" value="1"/>
+        <enum name="sector" value="2"/>
+    </attr>
+    <declare-styleable name="cbprogressbar">
+        <attr name="percent_text_size"/>
+        <attr name="isHorizonStroke"/>
+        <attr name="percent_text_color"/>
+        <attr name="progressBarBgColor"/>
+        <attr name="progressColor"/>
+        <attr name="sectorColor"/>
+        <attr name="unSweepColor"/>
+        <attr name="orientation"/>
+        <attr name="stroke_width"/>
+        <attr name="rect_round"/>
+        <attr name="showPercentSign"/>
+    </declare-styleable>
+
+    <array name="fingerprint">
+        <item>@drawable/fingerprint_00</item>
+        <item>@drawable/fingerprint_01</item>
+        <item>@drawable/fingerprint_02</item>
+        <item>@drawable/fingerprint_03</item>
+        <item>@drawable/fingerprint_04</item>
+        <item>@drawable/fingerprint_05</item>
+        <item>@drawable/fingerprint_06</item>
+        <item>@drawable/fingerprint_07</item>
+        <item>@drawable/fingerprint_08</item>
+        <item>@drawable/fingerprint_09</item>
+        <item>@drawable/fingerprint_10</item>
+        <item>@drawable/fingerprint_11</item>
+        <item>@drawable/fingerprint_12</item>
+        <item>@drawable/fingerprint_13</item>
+        <item>@drawable/fingerprint_14</item>
+        <item>@drawable/fingerprint_15</item>
+        <item>@drawable/fingerprint_16</item>
+        <item>@drawable/fingerprint_17</item>
+        <item>@drawable/fingerprint_18</item>
+        <item>@drawable/fingerprint_19</item>
+        <item>@drawable/fingerprint_20</item>
+        <item>@drawable/fingerprint_21</item>
+        <item>@drawable/fingerprint_22</item>
+        <item>@drawable/fingerprint_23</item>
+        <item>@drawable/fingerprint_24</item>
+        <item>@drawable/fingerprint_25</item>
+        <item>@drawable/fingerprint_26</item>
+        <item>@drawable/fingerprint_27</item>
+        <item>@drawable/fingerprint_28</item>
+        <item>@drawable/fingerprint_29</item>
+        <item>@drawable/fingerprint_30</item>
+        <item>@drawable/fingerprint_31</item>
+        <item>@drawable/fingerprint_32</item>
+        <item>@drawable/fingerprint_33</item>
+        <item>@drawable/fingerprint_34</item>
+        <item>@drawable/fingerprint_35</item>
+        <item>@drawable/fingerprint_36</item>
+        <item>@drawable/fingerprint_37</item>
+        <item>@drawable/fingerprint_38</item>
+        <item>@drawable/fingerprint_39</item>
+        <item>@drawable/fingerprint_40</item>
+        <item>@drawable/fingerprint_41</item>
+        <item>@drawable/fingerprint_42</item>
+        <item>@drawable/fingerprint_43</item>
+        <item>@drawable/fingerprint_44</item>
+        <item>@drawable/fingerprint_45</item>
+        <item>@drawable/fingerprint_46</item>
+        <item>@drawable/fingerprint_47</item>
+        <item>@drawable/fingerprint_48</item>
+        <item>@drawable/fingerprint_49</item>
+    </array>
+
+    <string-array name="bus_name">
+        <!-- 光华桥西(公交站) -->
+        <item>639路-黎各庄→北京站东</item>
+        <item>快速直达专线34路-百子湾家园东站→东大桥路口东站</item>
+        <!-- 光华桥南(公交站)左侧 -->
+        <item>402路-南皋→祁家坟</item>
+        <item>405路-四惠枢纽站→孙河东站</item>
+        <item>9路-金家村桥东站→金台路站</item>
+        <item>夜30路内-十里河桥南站→十里河桥北站</item>
+        <item>运通107路-马家堡路北口站→广顺南大街北口站</item>
+        <item>运通107路快车-马家堡路北口站→广顺南大街北口站</item>
+        <!-- 光华桥南(公交站)右侧 -->
+        <item>619路-焦庄桥北站→北京站东</item>
+        <item>9路-金家村桥东站→金台路站</item>
+        <item>夜30路外-十里河桥北→十里河桥西</item>
+        <!-- 大北窑北(南行)(公交站) -->
+        <item>488路-马各庄坤江市场站→大北窑北站(南行)</item>
+        <!-- 大北窑北(公交站) -->
+        <item>113路-大北窑南站→祁家豁子站</item>
+        <item>402路-祁家坟站→南皋站</item>
+        <item>405路-四惠枢纽站→孙河东站</item>
+        <item>488路-马各庄坤江市场站→大北窑北站</item>
+        <item>503路-北岗子东站→大北窑北站</item>
+        <item>619路-焦庄桥北站→北京站东</item>
+        <item>650路-大北窑北站→焦庄桥北站</item>
+        <item>夜30路外-十里河桥北→十里河桥西</item>
+        <item>98路-四方桥西站→东大桥路口东站</item>
+        <item>快速直达专线143路-运河湾小区站→双井桥东站</item>
+        <item>快速直达专线69路-新潮嘉园三区站→地铁草房站</item>
+        <item>快速直达专线79路-怡乐中街东口站→大北窑北站</item>
+        <item>运通107路-马家堡路北口站→广顺南大街北口站</item>
+        <item>特8路-航天桥西站→航天桥西站</item>
+        <item>运通107路快车-马家堡路北口站→广顺南大街北口站</item>
+        <item>快速直达专线75路-快速直达专线75路</item>
+        <!-- 大北窑西(公交站)路北 -->
+        <item>1路-老山公交场站→四惠枢纽站</item>
+        <item>28路-弘燕公交场站→东大桥公交场站</item>
+        <item>619路-焦庄桥北站→北京站东</item>
+        <item>668路-京东运乔建材城站→北京站东</item>
+        <item>668路快车-京东运乔建材城站→北京站东</item>
+        <item>804路-北京站前街→杨洼站</item>
+        <item>805路-廊坊站→北京站东</item>
+        <item>938路-香河总站→北京站东</item>
+        <item>9路-金家村桥东站→金台路站</item>
+        <item>快速直达专线12路-大北窑西站→通州小街桥东站</item>
+        <item>快速直达专线13路-大北窑东站→万盛北街站</item>
+        <item>快速直达专线162路-临河里路南口→大北窑南</item>
+        <item>快速直达专线5路-疃里三区站→大北窑东站</item>
+        <!-- 大北窑西(公交站)路南 -->
+        <item>1路-老山公交场站→四惠枢纽站</item>
+        <item>28路-弘燕公交场站→东大桥公交场站</item>
+        <item>619路-焦庄桥北站→北京站东</item>
+        <item>668路-京东运乔建材城站→北京站东</item>
+        <item>668路快车-京东运乔建材城站→北京站东</item>
+        <item>804路-北京站前街→杨洼站</item>
+        <item>805路-廊坊站→北京站东</item>
+        <item>938路-香河总站→北京站东</item>
+        <item>9路-金家村桥东站→金台路站</item>
+        <item>快速直达专线12路-大北窑西站→通州小街桥东站</item>
+        <item>快速直达专线13路-大北窑东站→万盛北街站</item>
+        <item>快速直达专线162路-临河里路南口→大北窑南</item>
+        <item>快速直达专线5路-疃里三区站→大北窑东站</item>
+    </string-array>
+
+    <string-array name="bus_name_d">
+        <!-- 光华桥西(公交站) -->
+        <item>639路</item>
+        <item>34路</item>
+        <!-- 光华桥南(公交站)左侧 -->
+        <item>402路</item>
+        <item>405路</item>
+        <item>9路</item>
+        <item>30路</item>
+        <item>107路</item>
+        <item>107路</item>
+        <!-- 光华桥南(公交站)右侧 -->
+        <item>619路</item>
+        <item>9路</item>
+        <item>30路</item>
+        <!-- 大北窑北(南行)(公交站) -->
+        <item>488路</item>
+        <!-- 大北窑北(公交站) -->
+        <item>113路</item>
+        <item>402路</item>
+        <item>405路</item>
+        <item>488路</item>
+        <item>503路</item>
+        <item>619路</item>
+        <item>650路</item>
+        <item>30路</item>
+        <item>98路</item>
+        <item>143路</item>
+        <item>69路</item>
+        <item>79路</item>
+        <item>107路</item>
+        <item>8路</item>
+        <item>107路</item>
+        <item>75路</item>
+        <!-- 大北窑西(公交站)路北 -->
+        <item>1路</item>
+        <item>28路</item>
+        <item>619路</item>
+        <item>668路</item>
+        <item>668路</item>
+        <item>804路</item>
+        <item>805路</item>
+        <item>938路</item>
+        <item>9路</item>
+        <item>12路</item>
+        <item>13路</item>
+        <item>162路</item>
+        <item>5路</item>
+        <!-- 大北窑西(公交站)路南 -->
+        <item>1路</item>
+        <item>28路</item>
+        <item>619路</item>
+        <item>668路</item>
+        <item>668路</item>
+        <item>804路</item>
+        <item>805路</item>
+        <item>938路</item>
+        <item>9路</item>
+        <item>12路</item>
+        <item>13路</item>
+        <item>62路</item>
+        <item>5路</item>
+    </string-array>
+
+
+    <integer-array name="bus_pid">
+        <!-- 光华桥西(公交站) -->
+        <!--<item>18326</item>-->
+        <!--<item>18326</item>-->
+        <item>24714</item>
+        <item>24714</item>
+        <!-- 光华桥南(公交站)左侧 -->
+        <!--<item>18088</item>-->
+        <!--<item>18088</item>-->
+        <!--<item>18088</item>-->
+        <!--<item>18088</item>-->
+        <!--<item>18088</item>-->
+        <!--<item>18088</item>-->
+        <item>23845</item>
+        <item>23845</item>
+        <item>23845</item>
+        <item>23845</item>
+        <item>23845</item>
+        <item>23845</item>
+        <!-- 光华桥南(公交站)右侧 -->
+        <!--<item>18228</item>-->
+        <!--<item>18228</item>-->
+        <!--<item>18228</item>-->
+        <item>23767</item>
+        <item>23767</item>
+        <item>23767</item>
+        <!-- 大北窑北(南行)(公交站) -->
+        <!--<item>16325</item>-->
+        <item>24191</item>
+        <!-- 大北窑北(公交站) -->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <!-- 大北窑西(公交站)路北 -->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+         <!--大北窑西(公交站)路南 -->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+    </integer-array>
+
+    <string-array name="bus_name_short">
+         <!--光华桥西(公交站) -->
+        <item>639路，34路</item>
+        <!-- 光华桥南(公交站)左侧 -->
+        <item>402路，405路，9路，30路，107路，107路</item>
+        <!-- 光华桥南(公交站)右侧 -->
+        <item>619路，9路，30路</item>
+        <!-- 大北窑北(南行)(公交站) -->
+        <item>488路</item>
+        <!-- 大北窑北(公交站) -->
+        <item>113路，402路，405路，488路，503路，619路，650路，30路，98路，143路，69路，79路，107路，8路，107路，75路</item>
+        <!-- 大北窑西(公交站)路北 -->
+        <item>1路，28路，619路，668路，668路，804路，805路，938路，9路，12路，13路，162路，5路</item>
+        <!-- 大北窑西(公交站)路南 -->
+        <item>1路，28路，619路，668路，668路，804路，805路，938路，9路，12路，13路，162路，5路</item>
+    </string-array>
+    <integer-array name="bus_pid_short">
+        <!-- 光华桥西(公交站) -->
+        <!--<item>18326</item>-->
+        <item>24714</item>
+        <!-- 光华桥南(公交站)左侧 -->
+        <!--<item>18088</item>-->
+        <item>23845</item>
+        <!-- 光华桥南(公交站)右侧 -->
+        <!--<item>18228</item>-->
+        <item>23767</item>
+        <!-- 大北窑北(南行)(公交站) -->
+        <!--<item>16325</item>-->
+        <item>24191</item>
+        <!-- 大北窑北(公交站) -->
+        <!--<item>17112</item>-->
+        <item>24201</item>
+        <!-- 大北窑西(公交站)路北 -->
+        <!--<item>22490</item>-->
+        <item>24390</item>
+        <!-- 大北窑西(公交站)路南 -->
+        <!--<item>22500</item>-->
+        <item>24400</item>
+    </integer-array>
+
+    <string-array name="home_speak_1">
+        <item>你今天真酷</item>
+        <item>你好可爱</item>
+        <item>吃饭了吗？要是没吃饭可以给你推荐好吃的餐厅哦</item>
+        <item>想去溜冰吗？国贸冰场可是很火爆哦</item>
+    </string-array>
+
+    <!-- 姓名 -->
+    <string-array name="man_name">
+        <item>孤傲何妨</item>
+        <item>混世大魔王</item>
+        <item>倾城般的骚年</item>
+        <item>好男人中国造</item>
+        <item>萝莉杀手</item>
+        <item>闭加锁、先生</item>
+        <item>舍我其谁</item>
+        <item>无敌小金刚</item>
+        <item>永不言败</item>
+        <item>低调小伙</item>
+        <item> 少年与梦</item>
+        <item>呆萌小王子</item>
+        <item>倾城一夜雪</item>
+        <item>糖醋小萝卜</item>
+    </string-array>
+    <string-array name="woman_name">
+        <item>盛夏光线</item>
+        <item>魅不可挡</item>
+        <item>微凉之夏</item>
+        <item>青春至上</item>
+        <item>人生若如初见</item>
+        <item>魅不可挡</item>
+        <item>开花的树</item>
+        <item>草莓酸奶酱</item>
+        <item>流年似水</item>
+        <item>咖啡微暖寒冬时</item>
+        <item>傲娇小公主</item>
+        <item>清纯少女</item>
+        <item>流年似水</item>
+        <item>嫣然含笑</item>
+    </string-array>
+    <!-- 男：20-30岁-->
+    <string-array name="man_trait_front_one_1">
+        <item>有情人钟情眷属，没情人数不胜数</item>
+        <item>红豆不长南国，长我脸上了，真相思</item>
+        <item>喜欢你，没道理</item>
+        <item>宁愿骄傲的孤单，也不委屈的喜欢</item>
+    </string-array>
+    <string-array name="man_trait_front_one_2">
+        <item>当代有志青年</item>
+        <item>像龙在腾飞</item>
+        <item>像虎在跳跃</item>
+        <item>年纪轻轻就走上了人生巅峰</item>
+        <item>心有多大 舞台就有多大</item>
+        <item>趁年轻去努力，别对不起你儿时吹的牛逼</item>
+        <item>改变，从现在开始</item>
+        <item>成功，由今天起步</item>
+    </string-array>
+    <string-array name="man_trait_front_one_3">
+        <item>帅是对你最低的评价</item>
+        <item>风流倜傥胜无比</item>
+        <item>温文尔雅，一表人才</item>
+        <item>潇洒是我本性，帅是命中注定</item>
+        <item>哥一直在被追赶，但从未被超越</item>
+        <item>我每天早上都是被自己帅醒的</item>
+    </string-array>
+    <string-array name="man_trait_front_one_4">
+        <item>身体康健，容光焕发</item>
+        <item>棒棒的身体</item>
+        <item>健康的体魄</item>
+    </string-array>
+    <string-array name="man_trait_front_one_5">
+        <item>IQ爆表</item>
+        <item>绝顶聪明</item>
+        <item>富有才华，英俊潇洒</item>
+        <item>同龄人无法超越的智商</item>
+        <item>驴是的念来过倒</item>
+    </string-array>
+    <string-array name="man_trait_front_one_6">
+        <item>跟你在一起，总是会让人觉得很舒服</item>
+        <item>有男人味而不大男子主义</item>
+        <item>从小懂得很多大道理</item>
+    </string-array>
+    <string-array name="man_trait_front_one_7">
+        <item>魅力与实力并存</item>
+        <item>拥有一个开挂的人生</item>
+        <item>只做第一个我，不做第二个谁。</item>
+    </string-array>
+    <!--男：30-40岁-->
+    <string-array name="man_trait_front_two_1">
+        <item>只要锄头舞的好，哪有墙角挖不倒</item>
+        <item>执子之手，与子偕老</item>
+        <item>别跟我谈感情，谈感情伤钱</item>
+        <item>一次多情，次次真心</item>
+    </string-array>
+    <string-array name="man_trait_front_two_2">
+        <item>才高八斗胜子建 学富五车如东坡</item>
+        <item>年轻有为，蒸蒸日上</item>
+        <item>高歌猛进，平步青云</item>
+        <item>百尺竿头，更进一步</item>
+    </string-array>
+    <string-array name="man_trait_front_two_3">
+        <item>成熟稳重，面如冠玉</item>
+        <item>人见人爱，花见花开，车见车爆胎</item>
+        <item>帅到路人看了都会昏倒</item>
+        <item>哥一直在被追赶，但从未被超越!</item>
+    </string-array>
+    <string-array name="man_trait_front_two_4">
+        <item>重健康，在心里，心里健康数第一</item>
+        <item>气壮山河，生龙活虎</item>
+        <item>没啥大毛病就是身体经常被掏空</item>
+    </string-array>
+    <string-array name="man_trait_front_two_5">
+        <item>我和你在一起压力好大，谁让你这么优秀</item>
+        <item>前无古人，后无来者</item>
+        <item>聪明绝顶，无人能敌</item>
+    </string-array>
+    <string-array name="man_trait_front_two_6">
+        <item>宽宏大量，不拘小节</item>
+        <item>很成熟，总是替别人着想</item>
+        <item>不抱怨不批评</item>
+        <item>英雄难过美人关</item>
+    </string-array>
+    <string-array name="man_trait_front_two_7">
+        <item>生活与事业丰隆</item>
+        <item>一个人活出一部百科全书</item>
+    </string-array>
+    <!--男：40-50岁-->
+    <string-array name="man_trait_front_three_1">
+        <item>爱情美满，与爱相伴</item>
+        <item>死生契约，与子成悦</item>
+        <item>你的幸福，我来买单</item>
+        <item>落花人独立，微雨燕双飞</item>
+    </string-array>
+    <string-array name="man_trait_front_three_2">
+        <item>精诚所至，金石为开</item>
+        <item>步步高升，独占鳌头</item>
+    </string-array>
+    <string-array name="man_trait_front_three_3">
+        <item>人见人爱，鸟见鸟呆</item>
+        <item>风度翩翩，一表人才</item>
+        <item>翩若惊鸿，矫若游龙</item>
+    </string-array>
+    <string-array name="man_trait_front_three_4">
+        <item>健康，一直是你的好伙伴</item>
+        <item>没啥大毛病</item>
+        <item>没啥大毛病就是身体经常被掏空</item>
+    </string-array>
+    <string-array name="man_trait_front_three_5">
+        <item>大智若愚，博学多才</item>
+        <item>站的高，看的远</item>
+    </string-array>
+    <string-array name="man_trait_front_three_6">
+        <item>严于律己，宽以待人</item>
+        <item>有深度偶尔也会有狂野的一面</item>
+    </string-array>
+    <string-array name="man_trait_front_three_7">
+        <item>多姿多彩的人生</item>
+        <item>功成名就，受人尊敬的人生</item>
+    </string-array>
+
+    <!--女：20-30岁-->
+    <string-array name="woman_trait_front_one_1">
+        <item>我想变成手机，永远被你握在手里</item>
+        <item>众里寻他千百度，那人却在灯火阑珊处</item>
+        <item>我的眼里只有你</item>
+    </string-array>
+    <string-array name="woman_trait_front_one_2">
+        <item>明明可以靠脸吃饭，却偏要靠才华</item>
+        <item>巾帼不让须眉</item>
+        <item>谁说女子不如儿郞</item>
+    </string-array>
+    <string-array name="woman_trait_front_one_3">
+        <item>远惭西子,近愧王嫱</item>
+        <item>你是天上掉下来的林妹妹吗</item>
+        <item>温柔可人，活泼可爱</item>
+        <item>群芳难逐，天香国艳</item>
+        <item>秀外慧中 ，楚楚动人</item>
+        <item>艳若桃李 花枝招展</item>
+        <item>窈窕淑女 秀丽端庄</item>
+        <item>美丽这个形容词简直是为我而造的</item>
+    </string-array>
+    <string-array name="woman_trait_front_one_4">
+        <item>体态健美，青春活力</item>
+        <item>神采奕奕，生机勃勃</item>
+    </string-array>
+    <string-array name="woman_trait_front_one_5">
+        <item>你像一盏玲珑剔透的玻璃灯</item>
+        <item>敏而好学，聪明伶俐</item>
+        <item>兰质蕙心，秀外慧中</item>
+        <item>你是我见过的最聪明的女生了</item>
+    </string-array>
+    <string-array name="woman_trait_front_one_6">
+        <item>你这女人啊，连石头都能看进三尺去</item>
+        <item>不知你有什么魔法，对你没有任何脾气</item>
+    </string-array>
+    <string-array name="woman_trait_front_one_7">
+        <item>拥有众人仰慕的人生</item>
+        <item>人生一路是绿灯</item>
+        <item>微笑拥抱每一天，做像向日葵般温暖的女子。</item>
+    </string-array>
+    <!--  女：30-40岁-->
+
+    <string-array name="woman_trait_front_two_1">
+        <item>一个月亮一个你，两个影子我和你</item>
+        <item>只愿君心似我心，定不负相思意</item>
+        <item>愿得一心人，白头不相离</item>
+    </string-array>
+    <string-array name="woman_trait_front_two_2">
+        <item>上的了厅堂，下的了厨房</item>
+        <item>事业有成，安居乐业</item>
+    </string-array>
+    <string-array name="woman_trait_front_two_3">
+        <item>你是那样地美，美得象一首抒情诗</item>
+        <item>沉鱼落雁 ，闭月羞花</item>
+        <item>明眸皓齿 ，天生丽质</item>
+        <item>桃之夭夭，灼灼其华</item>
+        <item>秀靥艳比花娇，玉颜艳春红</item>
+    </string-array>
+    <string-array name="woman_trait_front_two_4">
+        <item>懂的生活，拥有健康</item>
+        <item>红光满面，神采飞扬</item>
+    </string-array>
+    <string-array name="woman_trait_front_two_5">
+        <item>才高八斗，智计百出</item>
+        <item>旋转乾坤，扭转天地</item>
+        <item>千伶百俐，神机妙算 </item>
+    </string-array>
+    <string-array name="woman_trait_front_two_6">
+        <item>温文尔雅，坦诚相待</item>
+        <item>善于表达和沟通</item>
+        <item>自信的生命最美丽！</item>
+        <item>心有多大，舞台就有多大。</item>
+    </string-array>
+    <string-array name="woman_trait_front_two_7">
+        <item>生活幸福，家庭美满</item>
+        <item>生活多姿多彩</item>
+    </string-array>
+    <!--    女：40-50岁-->
+    <string-array name="woman_trait_front_three_1">
+        <item>谈谈的爱，深深地喜欢</item>
+        <item>与你在一起每天都是情人节</item>
+        <item>喜欢你胜过喜欢我自己</item>
+    </string-array>
+    <string-array name="woman_trait_front_three_2">
+        <item>前程似锦，富贵荣华</item>
+        <item>你给人感觉你绝不是一般人</item>
+    </string-array>
+    <string-array name="woman_trait_front_three_3">
+        <item>你有一种说不出来的魅力</item>
+        <item>容颜依旧，百媚丛生</item>
+        <item>秀靥艳比花娇</item>
+        <item>回眸一笑，百媚丛生</item>
+    </string-array>
+    <string-array name="woman_trait_front_three_4">
+        <item>第一财富是健康</item>
+        <item>在健康面前，一切都显得渺小</item>
+    </string-array>
+    <string-array name="woman_trait_front_three_5">
+        <item>什么困难都难不倒你</item>
+        <item>一般人比不过你</item>
+    </string-array>
+    <string-array name="woman_trait_front_three_6">
+        <item>心态平和，慈眉善目</item>
+        <item>懂的倾听</item>
+    </string-array>
+    <string-array name="woman_trait_front_three_7">
+        <item>一生平安幸福，快乐相伴</item>
+        <item>家庭事业双丰收</item>
+    </string-array>
+    <array name="seal">
+        <item>@drawable/seal_00</item>
+        <item>@drawable/seal_01</item>
+        <item>@drawable/seal_02</item>
+        <item>@drawable/seal_03</item>
+        <item>@drawable/seal_04</item>
+        <item>@drawable/seal_05</item>
+        <item>@drawable/seal_06</item>
+        <item>@drawable/seal_07</item>
+        <item>@drawable/seal_08</item>
+        <item>@drawable/seal_09</item>
+        <item>@drawable/seal_10</item>
+        <item>@drawable/seal_11</item>
+        <item>@drawable/seal_12</item>
+        <item>@drawable/seal_13</item>
+        <item>@drawable/seal_14</item>
+        <item>@drawable/seal_15</item>
+        <item>@drawable/seal_16</item>
+        <item>@drawable/seal_17</item>
+        <item>@drawable/seal_18</item>
+        <item>@drawable/seal_19</item>
+        <item>@drawable/seal_20</item>
+        <item>@drawable/seal_21</item>
+        <item>@drawable/seal_22</item>
+        <item>@drawable/seal_23</item>
+        <item>@drawable/seal_24</item>
+        <item>@drawable/seal_25</item>
+        <item>@drawable/seal_26</item>
+        <item>@drawable/seal_27</item>
+        <item>@drawable/seal_28</item>
+        <item>@drawable/seal_29</item>
+        <item>@drawable/seal_30</item>
+        <item>@drawable/seal_31</item>
+        <item>@drawable/seal_32</item>
+        <item>@drawable/seal_33</item>
+        <item>@drawable/seal_34</item>
+        <item>@drawable/seal_35</item>
+        <item>@drawable/seal_36</item>
+        <item>@drawable/seal_37</item>
+        <item>@drawable/seal_38</item>
+        <item>@drawable/seal_39</item>
+        <item>@drawable/seal_40</item>
+        <item>@drawable/seal_41</item>
+        <item>@drawable/seal_42</item>
+        <item>@drawable/seal_43</item>
+        <item>@drawable/seal_44</item>
+    </array>
+
+    <declare-styleable name="CustomCircleProgressBar">
+        <attr name="outside_color" format="color" />
+        <attr name="outside_radius" format="dimension" />
+        <attr name="inside_color" format="color" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_width" format="dimension" />
+        <attr name="max_progress" format="integer" />
+        <attr name="progress" format="float" />
+        <attr name="direction">
+            <enum name="left" value="0" />
+            <enum name="top" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>
+

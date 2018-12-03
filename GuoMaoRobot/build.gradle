@@ -1,0 +1,75 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+
+
+    defaultConfig {
+        multiDexEnabled true
+        applicationId "com.innsmap.guomaorobot"
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    signingConfigs {
+        debug {
+            keyAlias 'yongning'
+            keyPassword 'innsmap'
+            storeFile file('key1.keystore')
+            storePassword 'innsmap'
+        }
+        release {
+            keyAlias 'yongning'
+            keyPassword 'innsmap'
+            storeFile file('key1.keystore')
+            storePassword 'innsmap'
+        }
+    }
+
+    buildTypes {
+        release {
+            shrinkResources true
+            minifyEnabled true
+            zipAlignEnabled true
+            useProguard = true
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dataBinding {
+        enabled true
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs', '../domain/libs'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:multidex:1.0.3'
+    api rootProject.ext.support["appcompat-v7"]
+    api rootProject.ext.dependencies.gifdrawable
+    api rootProject.ext.dependencies.flowlayout
+    compileOnly project(path: ':data')
+    implementation project(':domain')
+    implementation project(':mvvmframework')
+    testImplementation rootProject.ext.support["junit"]
+    androidTestImplementation rootProject.ext.support["runner"]
+    androidTestImplementation rootProject.ext.support["espresso"], {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+    implementation project(path: ':versionchecker')
+}

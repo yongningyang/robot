@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:bind="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="titleViewModel"
+            type="com.innsmap.guomaorobot.vm.TitleViewModel" />
+    </data>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <ImageView
+            android:id="@+id/title_img_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/logo" />
+
+        <TextView
+            android:id="@+id/title_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:text="@{titleViewModel.battery}"
+            android:textColor="?attr/title_text_color"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/title_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/title_battery"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:layout_toStartOf="@id/title_battery"
+            android:padding="5dp"
+            android:src="@drawable/voice_btn_selector"
+            bind:falseToGone="@{titleViewModel.voiceBtnVisible}"
+            bind:onClickCommand="@{titleViewModel.voiceBtnClickCommand}"
+            bind:selectState="@{titleViewModel.voiceOpen}" />
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,62 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <!--<style name="FullScreen" parent="android:Theme.Light.NoTitleBar.Fullscreen">-->
+    <!--<item name="android:windowNoTitle">true</item>-->
+    <!--<item name="android:windowFullscreen">true</item>-->
+    <!--</style>-->
+
+    <style name="LightTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="robot_main_bg">@mipmap/main_bg</item>
+
+        <item name="main_inside_color">@color/inside_color_light</item>
+        <item name="main_text_color">@color/maintextcolor_light</item>
+        <item name="title_text_color">@color/title_textcolor_light</item>
+        <item name="text_color">@color/textcolor_light</item>
+        <item name="percent_text_color_2">@color/percent_text_color_2_light</item>
+        <item name="progressbar_bg_color_1">@color/progressbar_bg_color_1_light</item>
+        <item name="progress_color_1">@color/progress_color_1_light</item>
+    </style>
+
+    <style name="BlackTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="robot_main_bg">@mipmap/main_bg</item>
+
+        <item name="inside_color">@color/inside_color_dark</item>
+        <item name="main_text_color">@color/inside_color_dark</item>
+        <item name="title_text_color">@color/inside_color_dark</item>
+        <item name="text_color">@color/inside_color_dark</item>
+        <item name="percent_text_color_2">@color/inside_color_dark</item>
+        <item name="progressbar_bg_color_1">@color/inside_color_dark</item>
+        <item name="progress_color_1">@color/inside_color_dark</item>
+    </style>
+
+    <style name="FestivalTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="robot_main_bg">@mipmap/main_bg</item>
+
+        <item name="inside_color">@color/inside_color_festival</item>
+        <item name="main_text_color">@color/inside_color_festival</item>
+        <item name="title_text_color">@color/inside_color_festival</item>
+        <item name="text_color">@color/inside_color_festival</item>
+        <item name="percent_text_color_2">@color/inside_color_festival</item>
+        <item name="progressbar_bg_color_1">@color/inside_color_festival</item>
+        <item name="progress_color_1">@color/inside_color_festival</item>
+    </style>
+
+</resources>

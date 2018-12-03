@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <!--Light Mode Color-->
+    <color name="inside_color_light">#00D1CDCD</color>
+    <color name="maintextcolor_light">#7F6C2D</color>
+    <color name="title_textcolor_light">#7F6C2D</color>
+    <color name="textcolor_light">#ECE8BB</color>
+    <color name="percent_text_color_2_light">#A2CD5A</color>
+    <color name="progressbar_bg_color_1_light">#FFFFFF</color>
+    <color name="progress_color_1_light">#99FFFFFF</color>
+
+
+    <!--Dark Mode Color-->
+    <color name="inside_color_dark">#00D1CDCD</color>
+    <color name="maintextcolor_dark">#7F6C2D</color>
+    <color name="title_textcolor_dark">#7F6C2D</color>
+    <color name="textcolor_dark">#ECE8BB</color>
+    <color name="percent_text_color_2_dark">#A2CD5A</color>
+    <color name="progressbar_bg_color_1_dark">#FFFFFF</color>
+    <color name="progress_color_1_dark">#99FFFFFF</color>
+
+
+    <!--Festival Mode Color-->
+    <color name="inside_color_festival">#00D1CDCD</color>
+    <color name="maintextcolor_festival">#7F6C2D</color>
+    <color name="title_textcolor_festival">#7F6C2D</color>
+    <color name="textcolor_festival">#ECE8BB</color>
+    <color name="percent_text_color_2_festival">#A2CD5A</color>
+    <color name="progressbar_bg_color_1_festival">#FFFFFF</color>
+    <color name="progress_color_1_festival">#99FFFFFF</color>
+</resources>

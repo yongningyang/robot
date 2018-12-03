@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 退出时动画效果 -->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate
+        android:duration="400"
+        android:fromXDelta="0%"
+        android:fromYDelta="0%"
+        android:toXDelta="180%"
+        android:toYDelta="-100%" />
+    <scale
+        android:duration="400"
+        android:fillAfter="false"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="0.0"
+        android:toYScale="0.0" />
+
+</set>

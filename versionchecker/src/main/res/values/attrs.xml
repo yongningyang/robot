@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyView">
+        <attr name="background_" format="reference"/>
+        <attr name="more_select_background" format="reference" />
+        <attr name="one_select_background" format="reference"/>
+        <attr name="table_width" format="dimension"/>
+        <attr name="table_height" format="dimension"/>
+        <attr name="text_Size" format="dimension"/>
+        <attr name="text_high_color" format="color"/>
+        <attr name="text_default_color" format="color"/>
+    </declare-styleable>
+</resources>

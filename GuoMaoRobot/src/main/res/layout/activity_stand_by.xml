@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.innsmap.guomaorobot.vm.StandByViewModel" />
+    </data>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/main_bg">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="427dp"
+            android:src="@mipmap/standby_bg1"
+            android:visibility="gone" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:visibility="visible" />
+
+        <include
+            layout="@layout/title"
+            bind:titleViewModel="@{viewModel.titleViewModel}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginEnd="372dp"
+            android:background="@mipmap/bubble_3"
+            android:gravity="center"
+            android:paddingStart="55dp"
+            android:paddingTop="55dp"
+            android:paddingEnd="51dp"
+            android:paddingBottom="53dp"
+            android:text="国贸指路小达人"
+            android:textColor="?attr/title_text_color"
+            android:textSize="57sp" />
+
+        <ImageView
+            android:id="@+id/rotatingImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@mipmap/light_point" />
+
+        <ImageView
+            android:id="@+id/star_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="182dp"
+            android:layout_marginBottom="161dp"
+            bind:imgRes="@{viewModel.star1Res}"
+            tools:src="@mipmap/standby_star_dark_1" />
+
+        <ImageView
+            android:id="@+id/star_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="460dp"
+            android:layout_marginBottom="303dp"
+            bind:imgRes="@{viewModel.star2Res}"
+            tools:src="@mipmap/standby_star_dark_2" />
+
+        <ImageView
+            android:id="@+id/star_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="182dp"
+            android:layout_marginBottom="161dp"
+            bind:imgRes="@{viewModel.star3Res}"
+            tools:src="@mipmap/standby_star_dark_3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="439dp"
+            onClickCommand="@{viewModel.helloCommand}"
+            android:src="@mipmap/standby_hello" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="439dp"
+            android:layout_marginEnd="59dp"
+            bind:onClickCommand="@{viewModel.awakeMeCommand}"
+            android:src="@mipmap/standby_click" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:padding="40dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/standby_adv" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/standby_adv" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/standby_adv" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

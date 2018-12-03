@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="bus_name">
+        <!-- 光华桥西(公交站) -->
+        <item>639路-黎各庄→北京站东</item>
+        <item>快速直达专线34路-百子湾家园东站→东大桥路口东站</item>
+        <!-- 光华桥南(公交站)左侧 -->
+        <item>402路-南皋→祁家坟</item>
+        <item>405路-四惠枢纽站→孙河东站</item>
+        <item>9路-金家村桥东站→金台路站</item>
+        <item>夜30路内-十里河桥南站→十里河桥北站</item>
+        <item>运通107路-马家堡路北口站→广顺南大街北口站</item>
+        <item>运通107路快车-马家堡路北口站→广顺南大街北口站</item>
+        <!-- 光华桥南(公交站)右侧 -->
+        <item>619路-焦庄桥北站→北京站东</item>
+        <item>9路-金家村桥东站→金台路站</item>
+        <item>夜30路外-十里河桥北→十里河桥西</item>
+        <!-- 大北窑北(南行)(公交站) -->
+        <item>488路-马各庄坤江市场站→大北窑北站(南行)</item>
+        <!-- 大北窑北(公交站) -->
+        <item>113路-大北窑南站→祁家豁子站</item>
+        <item>402路-祁家坟站→南皋站</item>
+        <item>405路-四惠枢纽站→孙河东站</item>
+        <item>488路-马各庄坤江市场站→大北窑北站</item>
+        <item>503路-北岗子东站→大北窑北站</item>
+        <item>619路-焦庄桥北站→北京站东</item>
+        <item>650路-大北窑北站→焦庄桥北站</item>
+        <item>夜30路外-十里河桥北→十里河桥西</item>
+        <item>98路-四方桥西站→东大桥路口东站</item>
+        <item>快速直达专线143路-运河湾小区站→双井桥东站</item>
+        <item>快速直达专线69路-新潮嘉园三区站→地铁草房站</item>
+        <item>快速直达专线79路-怡乐中街东口站→大北窑北站</item>
+        <item>运通107路-马家堡路北口站→广顺南大街北口站</item>
+        <item>特8路-航天桥西站→航天桥西站</item>
+        <item>运通107路快车-马家堡路北口站→广顺南大街北口站</item>
+        <item>快速直达专线75路-快速直达专线75路</item>
+        <!-- 大北窑西(公交站)路北 -->
+        <item>1路-老山公交场站→四惠枢纽站</item>
+        <item>28路-弘燕公交场站→东大桥公交场站</item>
+        <item>619路-焦庄桥北站→北京站东</item>
+        <item>668路-京东运乔建材城站→北京站东</item>
+        <item>668路快车-京东运乔建材城站→北京站东</item>
+        <item>804路-北京站前街→杨洼站</item>
+        <item>805路-廊坊站→北京站东</item>
+        <item>938路-香河总站→北京站东</item>
+        <item>9路-金家村桥东站→金台路站</item>
+        <item>快速直达专线12路-大北窑西站→通州小街桥东站</item>
+        <item>快速直达专线13路-大北窑东站→万盛北街站</item>
+        <item>快速直达专线162路-临河里路南口→大北窑南</item>
+        <item>快速直达专线5路-疃里三区站→大北窑东站</item>
+        <!-- 大北窑西(公交站)路南 -->
+        <item>1路-老山公交场站→四惠枢纽站</item>
+        <item>28路-弘燕公交场站→东大桥公交场站</item>
+        <item>619路-焦庄桥北站→北京站东</item>
+        <item>668路-京东运乔建材城站→北京站东</item>
+        <item>668路快车-京东运乔建材城站→北京站东</item>
+        <item>804路-北京站前街→杨洼站</item>
+        <item>805路-廊坊站→北京站东</item>
+        <item>938路-香河总站→北京站东</item>
+        <item>9路-金家村桥东站→金台路站</item>
+        <item>快速直达专线12路-大北窑西站→通州小街桥东站</item>
+        <item>快速直达专线13路-大北窑东站→万盛北街站</item>
+        <item>快速直达专线162路-临河里路南口→大北窑南</item>
+        <item>快速直达专线5路-疃里三区站→大北窑东站</item>
+    </string-array>
+
+    <string-array name="bus_name_d">
+        <!-- 光华桥西(公交站) -->
+        <item>639路</item>
+        <item>34路</item>
+        <!-- 光华桥南(公交站)左侧 -->
+        <item>402路</item>
+        <item>405路</item>
+        <item>9路</item>
+        <item>30路</item>
+        <item>107路</item>
+        <item>107路</item>
+        <!-- 光华桥南(公交站)右侧 -->
+        <item>619路</item>
+        <item>9路</item>
+        <item>30路</item>
+        <!-- 大北窑北(南行)(公交站) -->
+        <item>488路</item>
+        <!-- 大北窑北(公交站) -->
+        <item>113路</item>
+        <item>402路</item>
+        <item>405路</item>
+        <item>488路</item>
+        <item>503路</item>
+        <item>619路</item>
+        <item>650路</item>
+        <item>30路</item>
+        <item>98路</item>
+        <item>143路</item>
+        <item>69路</item>
+        <item>79路</item>
+        <item>107路</item>
+        <item>8路</item>
+        <item>107路</item>
+        <item>75路</item>
+        <!-- 大北窑西(公交站)路北 -->
+        <item>1路</item>
+        <item>28路</item>
+        <item>619路</item>
+        <item>668路</item>
+        <item>668路</item>
+        <item>804路</item>
+        <item>805路</item>
+        <item>938路</item>
+        <item>9路</item>
+        <item>12路</item>
+        <item>13路</item>
+        <item>162路</item>
+        <item>5路</item>
+        <!-- 大北窑西(公交站)路南 -->
+        <item>1路</item>
+        <item>28路</item>
+        <item>619路</item>
+        <item>668路</item>
+        <item>668路</item>
+        <item>804路</item>
+        <item>805路</item>
+        <item>938路</item>
+        <item>9路</item>
+        <item>12路</item>
+        <item>13路</item>
+        <item>62路</item>
+        <item>5路</item>
+    </string-array>
+
+
+    <integer-array name="bus_pid">
+        <!-- 光华桥西(公交站) -->
+        <!--<item>18326</item>-->
+        <!--<item>18326</item>-->
+        <item>24714</item>
+        <item>24714</item>
+        <!-- 光华桥南(公交站)左侧 -->
+        <!--<item>18088</item>-->
+        <!--<item>18088</item>-->
+        <!--<item>18088</item>-->
+        <!--<item>18088</item>-->
+        <!--<item>18088</item>-->
+        <!--<item>18088</item>-->
+        <item>23845</item>
+        <item>23845</item>
+        <item>23845</item>
+        <item>23845</item>
+        <item>23845</item>
+        <item>23845</item>
+        <!-- 光华桥南(公交站)右侧 -->
+        <!--<item>18228</item>-->
+        <!--<item>18228</item>-->
+        <!--<item>18228</item>-->
+        <item>23767</item>
+        <item>23767</item>
+        <item>23767</item>
+        <!-- 大北窑北(南行)(公交站) -->
+        <!--<item>16325</item>-->
+        <item>24191</item>
+        <!-- 大北窑北(公交站) -->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <!--<item>17112</item>-->
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <item>24201</item>
+        <!-- 大北窑西(公交站)路北 -->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <!--<item>22490</item>-->
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <item>24390</item>
+        <!--大北窑西(公交站)路南 -->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <!--<item>22500</item>-->
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+        <item>24400</item>
+    </integer-array>
+
+    <string-array name="bus_name_short">
+        <!--光华桥西(公交站) -->
+        <item>639路，34路</item>
+        <!-- 光华桥南(公交站)左侧 -->
+        <item>402路，405路，9路，30路，107路，107路</item>
+        <!-- 光华桥南(公交站)右侧 -->
+        <item>619路，9路，30路</item>
+        <!-- 大北窑北(南行)(公交站) -->
+        <item>488路</item>
+        <!-- 大北窑北(公交站) -->
+        <item>113路，402路，405路，488路，503路，619路，650路，30路，98路，143路，69路，79路，107路，8路，107路，75路</item>
+        <!-- 大北窑西(公交站)路北 -->
+        <item>1路，28路，619路，668路，668路，804路，805路，938路，9路，12路，13路，162路，5路</item>
+        <!-- 大北窑西(公交站)路南 -->
+        <item>1路，28路，619路，668路，668路，804路，805路，938路，9路，12路，13路，162路，5路</item>
+    </string-array>
+    <integer-array name="bus_pid_short">
+        <!-- 光华桥西(公交站) -->
+        <!--<item>18326</item>-->
+        <item>24714</item>
+        <!-- 光华桥南(公交站)左侧 -->
+        <!--<item>18088</item>-->
+        <item>23845</item>
+        <!-- 光华桥南(公交站)右侧 -->
+        <!--<item>18228</item>-->
+        <item>23767</item>
+        <!-- 大北窑北(南行)(公交站) -->
+        <!--<item>16325</item>-->
+        <item>24191</item>
+        <!-- 大北窑北(公交站) -->
+        <!--<item>17112</item>-->
+        <item>24201</item>
+        <!-- 大北窑西(公交站)路北 -->
+        <!--<item>22490</item>-->
+        <item>24390</item>
+        <!-- 大北窑西(公交站)路南 -->
+        <!--<item>22500</item>-->
+        <item>24400</item>
+    </integer-array>
+</resources>
